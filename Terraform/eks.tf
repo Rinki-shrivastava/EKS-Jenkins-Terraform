@@ -1,5 +1,5 @@
 module "eks" {
-  source  = "terraform-aws-modules/eks/aws"
+  source  = "terraform-aws-eks/examples/eks_managed_node_group/main.tf"
   version = "19.15.1"
 
   cluster_name                   = local.name
